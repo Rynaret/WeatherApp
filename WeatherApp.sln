@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf", "WeatherApp.Wpf\Wpf.csproj", "{0056FB28-11AA-46E7-8DD9-40525AEC4C69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GismeteoGrabber", "GismeteoGrabber\GismeteoGrabber.csproj", "{C972092F-DABC-4019-82A8-32533E391784}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{762F45B7-8596-4ED5-A868-4BC649789A2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GismeteoGrabber.Tests", "tests\GismeteoGrabber.Tests\GismeteoGrabber.Tests.csproj", "{D6A712C2-E46F-4D0F-B05D-867A6975E860}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.DataAccess", "Infrastructure.DataAccess\Infrastructure.DataAccess.csproj", "{CD48E624-ED2C-4C4C-AED3-2C98756B688A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{FC616EDA-7A41-4146-BC4B-DD7B2F42403D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.ForecastService", "Wcf.ForecastService\Wcf.ForecastService.csproj", "{A6B4D5E2-6443-4D5D-B7E9-8BED5E824FE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grpc.ForecastService", "Grpc.ForecastService\Grpc.ForecastService.csproj", "{B76034A4-5438-4CEA-821C-C85D09002211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0056FB28-11AA-46E7-8DD9-40525AEC4C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0056FB28-11AA-46E7-8DD9-40525AEC4C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0056FB28-11AA-46E7-8DD9-40525AEC4C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0056FB28-11AA-46E7-8DD9-40525AEC4C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C972092F-DABC-4019-82A8-32533E391784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C972092F-DABC-4019-82A8-32533E391784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C972092F-DABC-4019-82A8-32533E391784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C972092F-DABC-4019-82A8-32533E391784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A712C2-E46F-4D0F-B05D-867A6975E860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A712C2-E46F-4D0F-B05D-867A6975E860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A712C2-E46F-4D0F-B05D-867A6975E860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A712C2-E46F-4D0F-B05D-867A6975E860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD48E624-ED2C-4C4C-AED3-2C98756B688A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD48E624-ED2C-4C4C-AED3-2C98756B688A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD48E624-ED2C-4C4C-AED3-2C98756B688A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD48E624-ED2C-4C4C-AED3-2C98756B688A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC616EDA-7A41-4146-BC4B-DD7B2F42403D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC616EDA-7A41-4146-BC4B-DD7B2F42403D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC616EDA-7A41-4146-BC4B-DD7B2F42403D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC616EDA-7A41-4146-BC4B-DD7B2F42403D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B4D5E2-6443-4D5D-B7E9-8BED5E824FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B4D5E2-6443-4D5D-B7E9-8BED5E824FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B4D5E2-6443-4D5D-B7E9-8BED5E824FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B4D5E2-6443-4D5D-B7E9-8BED5E824FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76034A4-5438-4CEA-821C-C85D09002211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76034A4-5438-4CEA-821C-C85D09002211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76034A4-5438-4CEA-821C-C85D09002211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76034A4-5438-4CEA-821C-C85D09002211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6A712C2-E46F-4D0F-B05D-867A6975E860} = {762F45B7-8596-4ED5-A868-4BC649789A2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {844B6946-E67B-4A0A-AA86-5BD0D2A1902F}
+	EndGlobalSection
+EndGlobal
