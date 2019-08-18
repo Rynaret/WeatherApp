@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcForecastService";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+package Forecast;
+
+service Forecaster {
+  rpc GetAvailableGeoObjectsAsync (google.protobuf.Empty) returns (AvailableGeoObjectsResponse);
+  rpc GetForecastAsync (GetForecastRequest) returns (ForecastDto);
+}
+
+message GetForecastRequest {
+  string geoObjectName = 1;
+  google.protobuf.Timestamp date = 2;
+}
+
+message GeoObjectDto {
+  string name = 1;
+}
+
+message AvailableGeoObjectsResponse {
+  repeated GeoObjectDto geoObjects = 1;
+}
+
+message ForecastDto {
+  google.protobuf.Timestamp date = 1;
+  double precipitation = 2;
+  double maxTemperature = 3;
+  double minTemperature = 4;
+}
